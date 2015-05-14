@@ -4,7 +4,6 @@ import os
 import sys
 import json
 import flask
-import chef
 import requests
 import inframer.utils
 
