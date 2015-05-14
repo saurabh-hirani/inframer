@@ -18,6 +18,15 @@ Inframer - collect, store, consume, analyze - your infrastructure information
 
 * Install Redis on your machine - run it on localhost:6379
 
+* Update api/cfg.ini section
+
+```
+[redis]
+host: localhost
+port: 6379
+db: 1
+```
+
 * Run the following command to load dummy data in redis:
 
 ```
