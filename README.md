@@ -24,11 +24,15 @@ Inframer - collect, store, consume, analyze - your infrastructure information
 python inframer/src/helpers/dummy-data/load_dummy_data.py
 ```
 
+* Start the api server. By default it runs on - localhost:8081:
+
+```
+python inframer/src/api/api.py
+```
+
 ### Examples
 
 * Assumption: trial run setup done
-
-* Start the api server. By default it runs on - localhost:8081
 
 * Get list of available infrastructure databases:
 
