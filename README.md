@@ -21,7 +21,7 @@ Inframer - collect, store, consume, analyze - your infrastructure information
 * Install the required python modules (temporary fix till we make this project installable via pip)
 
 ```
-# pip install flask redis pychef boto
+# pip install requests flask redis pychef boto
 ```
 
 * Ensure that PYTHONPATH contains this project - assuming you cloned this repo in /home/user/inframer
