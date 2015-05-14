@@ -18,6 +18,19 @@ Inframer - collect, store, consume, analyze - your infrastructure information
 
 * Install Redis on your machine - run it on localhost:6379
 
+* Install the required python modules (temporary fix till we make this project installable via pip)
+
+```
+# pip install flask redis pychef boto
+```
+
+* Ensure that PYTHONPATH contains this project - assuming you cloned this repo in /home/user/inframer
+
+```
+export PYTHONPATH="$PYTHONPATH:/home/user/"
+```
+
+
 * Update api/cfg.ini section
 
 ```
