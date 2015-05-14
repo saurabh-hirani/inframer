@@ -2,17 +2,17 @@ Inframer - collect, store, consume, analyze - your infrastructure information
 
 ### Layout
 
-* src/collectors: collect information from various infrastructure databases
+* collectors: collect information from various infrastructure databases
 
-* src/stores: store collected information
+* stores: store collected information
 
-* src/api: inframer REST API built on top of stored information - start api by running api.py
+* api: inframer REST API built on top of stored information - start api by running api.py
 
-* src/analyzers: consume the REST APIs and analyze the information
+* analyzers: consume the REST APIs and analyze the information
 
-* src/helpers: internal - misc helper scripts
+* helpers: internal - misc helper scripts
 
-* src/bin: main working engine - start collection by running run\_collectors.py
+* bin: main working engine - start collection by running run\_collectors.py
 
 ### Trial run
 
@@ -21,13 +21,13 @@ Inframer - collect, store, consume, analyze - your infrastructure information
 * Run the following command to load dummy data in redis:
 
 ```
-python inframer/src/helpers/dummy-data/load_dummy_data.py
+python inframer/helpers/dummy-data/load_dummy_data.py
 ```
 
 * Start the api server. By default it runs on - localhost:8081:
 
 ```
-python inframer/src/api/api.py
+python inframer/api/api.py
 ```
 
 ### Examples
