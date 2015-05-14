@@ -127,6 +127,10 @@ curl -L "http://localhost:8081/inframer/api/v1/db/aws/region/?key_pattern=*us-we
 curl -L "http://localhost:8081/inframer/api/v1/db/chef/env/chef_host/qa?flatten=true&key_sep=|"
 ```
 
+### Actual run
+
+* Run the collectors via run_collector.py and view the collected infro through the API
+
 ### More details
 
 * Check https://github.com/saurabh-hirani/inframer/tree/master/docs
