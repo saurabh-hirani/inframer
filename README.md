@@ -1,4 +1,4 @@
-Inframer - collect, store, consume, analyze - your infrastructure information
+Inframer - collect, store, analyze - your infrastructure information
 
 ### Layout
 
